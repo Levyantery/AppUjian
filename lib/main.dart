@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: kBiruMuda,
         title: const Text(
-          'SIGN UP',
+          'WELCOME',
           style: TextStyle(
             color: kPutih,
             fontWeight: FontWeight.bold,
