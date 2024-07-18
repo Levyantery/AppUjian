@@ -1,3 +1,4 @@
+import 'package:app_ujian/model/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:app_ujian/web_view_screen.dart';
@@ -16,8 +17,15 @@ class _UrlInputPageState extends State<UrlInputPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: kBiruMuda,
         automaticallyImplyLeading: false,
-        title: const Text('INPUT LINK UJIAN'),
+        title: const Text(
+          'INPUT LINK UJIAN',
+          style: TextStyle(
+            color: kPutih, // Ubah warna teks menjadi biru
+            fontWeight: FontWeight.bold, // Mengatur tebal teks menjadi tebal
+          ),
+        ),
         actions: [
           IconButton(
             icon: Icon(Icons.exit_to_app),

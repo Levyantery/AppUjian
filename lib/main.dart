@@ -1,5 +1,6 @@
 import 'package:app_ujian/model/theme.dart';
 import 'package:app_ujian/ui/izin_app.dart';
+import 'package:app_ujian/ui/url_input_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: UrlInputPage(),
     );
   }
 }
@@ -38,7 +39,7 @@ class HomePage extends StatelessWidget {
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 20.0),
-            child: Image.asset('assets/bendera.jpg', height: 40, width: 100),
+            child: Image.asset('assets/bendera.png', height: 40, width: 100),
           ),
         ],
       ),

@@ -61,8 +61,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/browser.png
-    - assets/bendera.jpg
+    - assets/bendera.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

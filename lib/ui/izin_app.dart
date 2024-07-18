@@ -1,9 +1,8 @@
 import 'package:app_ujian/lock_task_manager.dart';
 import 'package:app_ujian/main.dart';
 import 'package:app_ujian/model/theme.dart';
-import 'package:app_ujian/url_input_page.dart';
+import 'package:app_ujian/ui/url_input_page.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class IzinApp extends StatefulWidget {
   const IzinApp({Key? key}) : super(key: key);
